@@ -1,9 +1,15 @@
 {
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Custom support panel bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.25.1"
   },
-
-  "scripts": {
-    "start": "node index.js"
+  "engines": {
+    "node": ">=18"
   }
 }
