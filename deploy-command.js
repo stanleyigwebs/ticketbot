@@ -2,7 +2,7 @@ const { REST, Routes, SlashCommandBuilder } = require('discord.js');
 
 const commands = [
   new SlashCommandBuilder()
-    .setName('panel')
+    .setName('panell')
     .setDescription('Send support category panel')
 ].map(command => command.toJSON());
 
