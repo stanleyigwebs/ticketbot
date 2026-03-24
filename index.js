@@ -80,7 +80,7 @@ client.on(Events.InteractionCreate, async interaction => {
       });
 
       await interaction.channel.send({
-        content: '📩 **Ticket Support**\nSelect the category of your issue below.\n**Support Ticketing System',
+        content: '📩 **Ticket Support**\nSelect the category of your issue below.\n**Support Ticketing System**',
         components: [row]
       });
     }
