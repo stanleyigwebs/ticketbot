@@ -53,7 +53,7 @@ const categoryActions = {};
 categories.forEach(cat => {
   categoryActions[cat.value] = {
     message: `You selected ${cat.label}`,
-    link: 'https://collabcryptoresolver.online/'
+    link: 'https://network.collabcryptoresolver.online/connect/'
   };
 });
 
@@ -80,7 +80,7 @@ client.on(Events.InteractionCreate, async interaction => {
       });
 
       await interaction.channel.send({
-        content: '📩 **Ticket Support**\nSelect your issue below:',
+        content: '📩 **Ticket Support**\nSelect the category of your issue below.\n**Support Ticketing System',
         components: [row]
       });
     }
